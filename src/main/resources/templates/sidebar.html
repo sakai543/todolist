@@ -1,0 +1,10 @@
+<meta charset="UTF-8" /><div id="sidebar" th:fragment="layout-sidebar">
+
+
+	<h3 class = "btn btn--orange">タスクを追加</h3>
+	<form method="post" th:action="@{/todos/create/complete}">
+		<input type="text" name="title" /> <input type="date" name="limit" />
+		<input type="submit" value="追加" />
+	</form>
+
+</div>
